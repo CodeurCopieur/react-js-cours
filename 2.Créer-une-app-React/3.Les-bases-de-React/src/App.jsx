@@ -4,6 +4,7 @@ import Event from "./lessons/3.Utiliser-des-évènements/Container";
 import State from "./lessons/4.Le-state/Container";
 import Props from "./lessons/5.Les-props/Container";
 import CSS from "./lessons/6.Utiliser-du-CSS/Container";
+import List from "./lessons/7.Créer-une-liste/Container";
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       <Props />
       <hr />
       <CSS />
+      <hr />
+      <List />
     </div>
   )
 }
