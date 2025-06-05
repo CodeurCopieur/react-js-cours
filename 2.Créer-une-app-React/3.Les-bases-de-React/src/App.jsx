@@ -3,6 +3,7 @@ import Composant from "./lessons/2.Premier-composant/Container";
 import Event from "./lessons/3.Utiliser-des-évènements/Container";
 import State from "./lessons/4.Le-state/Container";
 import Props from "./lessons/5.Les-props/Container";
+import CSS from "./lessons/6.Utiliser-du-CSS/Container";
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <State />
       <hr />
       <Props />
+      <hr />
+      <CSS />
     </div>
   )
 }
