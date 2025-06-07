@@ -1,0 +1,16 @@
+label,
+input,
+button {
+  display: block;
+}
+label,
+button,
+input,
+p {
+  margin-bottom: 10px;
+}
+
+.b-w {
+  border: 1px solid white;
+}
+
