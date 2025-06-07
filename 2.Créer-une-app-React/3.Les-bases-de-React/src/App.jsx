@@ -6,6 +6,7 @@ import Props from "./lessons/5.Les-props/Container";
 import CSS from "./lessons/6.Utiliser-du-CSS/Container";
 import List from "./lessons/7.Créer-une-liste/Container";
 import Image from "./lessons/8.Utiliser-des-images/Container";
+import Condition from "./lessons/9.Rendu-conditionnel-if/Container";
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <List />
       <hr />
       <Image />
+      <hr />
+      <Condition />
     </div>
   )
 }
