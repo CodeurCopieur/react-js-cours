@@ -8,6 +8,7 @@ import List from "./lessons/7.Créer-une-liste/Container";
 import Image from "./lessons/8.Utiliser-des-images/Container";
 import Condition from "./lessons/9.Rendu-conditionnel-if/Container";
 import Ternaire from "./lessons/10.Opérateur-ternaire/Container";
+import ShortCircuit from "./lessons/11.Short-circuit/Container";
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
       <Condition />
       <hr />
       <Ternaire />
+      <hr />
+      <ShortCircuit />
     </div>
   )
 }
