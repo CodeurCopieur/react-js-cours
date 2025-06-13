@@ -1,5 +1,10 @@
 import { useRef, useState } from "react";
 
+// 1 - isoler une valeur parmi les mise à jour
+
+// 2 - selectionné un élément du DOM
+
+
 export default function Container() {
   const inputRef = useRef(0);
   const [state, setState] = useState(0);
