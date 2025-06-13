@@ -10,6 +10,7 @@ import Condition from "./lessons/9.Rendu-conditionnel-if/Container";
 import Ternaire from "./lessons/10.Opérateur-ternaire/Container";
 import ShortCircuit from "./lessons/11.Short-circuit/Container";
 import Toggle from "./lessons/12.Toggle-une-classe-ou-du-CSS/Container";
+import UseRefHook from "./lessons/13.useRef/Container";
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
       <ShortCircuit />
       <hr />
       <Toggle />
+      <hr />
+      <UseRefHook />
     </div>
   )
 }
