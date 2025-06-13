@@ -7,7 +7,11 @@ export default function Container() {
   const handleClick = () => {
     inputRef.current++;
     console.log(inputRef.current);
+    console.log(paragraphRef.current);
   }
+
+  const paragraphRef = useRef(null);
+  console.log(paragraphRef.current);
 
   return (
     <div>
@@ -16,6 +20,8 @@ export default function Container() {
       <p>valeur du state: {state}</p>
       <button onClick={handleClick}>Incrementer la ref</button>
       <button onClick={() => setState(state + 1)}>Incrementer le state</button>  
+
+      <p className="paragraphRef" ref={paragraphRef}>Hello</p>
     </div>
   )
 }
