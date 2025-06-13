@@ -11,6 +11,7 @@ import Ternaire from "./lessons/10.Opérateur-ternaire/Container";
 import ShortCircuit from "./lessons/11.Short-circuit/Container";
 import Toggle from "./lessons/12.Toggle-une-classe-ou-du-CSS/Container";
 import UseRefHook from "./lessons/13.useRef/Container";
+import ControlledUncontrolledInputs from "./lessons/14.Controlled-uncontrolled-inputs/Container";
 
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
       <Toggle />
       <hr />
       <UseRefHook />
+      <hr />
+      <ControlledUncontrolledInputs />
     </div>
   )
 }
