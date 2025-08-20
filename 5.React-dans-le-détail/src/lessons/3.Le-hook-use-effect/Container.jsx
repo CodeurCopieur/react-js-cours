@@ -5,10 +5,10 @@ export default function Container() {
 
     const [count, setCount] = useState(0);
 
-    console.log("render");
+    console.log("3 hook useEffect : render");
 
     useEffect(() => {
-        console.log("useEffect");
+        console.log("3 hook useEffect : useEffect");
     }, []);  
   
   return (
