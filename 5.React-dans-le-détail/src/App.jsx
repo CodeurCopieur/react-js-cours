@@ -4,6 +4,7 @@ import Hooks from './lessons/2.La-règle-des-hooks/Container'
 import UseEffect from './lessons/3.Le-hook-use-effect/Container'
 import CleanupFunction from './lessons/4.Cleanup-function/Container'
 import AddGlobalEvent from './lessons/5.Ajouter-un-évènement-global/Container'
+import CallApi from './lessons/6.Appeler-une-API/Container'
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
       <hr />
       <br />
       <AddGlobalEvent/>
+      <hr />
+      <br />
+      <CallApi/>
     </div>
   )
 }
