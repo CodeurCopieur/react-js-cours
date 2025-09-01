@@ -5,6 +5,7 @@ import UseEffect from './lessons/3.Le-hook-use-effect/Container'
 import CleanupFunction from './lessons/4.Cleanup-function/Container'
 import AddGlobalEvent from './lessons/5.Ajouter-un-évènement-global/Container'
 import CallApi from './lessons/6.Appeler-une-API/Container'
+import UseObserver from './lessons/7.Utiliser-un-observateur/Container'
 
 function App() {
 
@@ -26,6 +27,9 @@ function App() {
       <hr />
       <br />
       <CallApi/>
+      <hr />
+      <br />
+      <UseObserver/>
     </div>
   )
 }
