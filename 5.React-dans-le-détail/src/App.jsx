@@ -6,6 +6,7 @@ import CleanupFunction from './lessons/4.Cleanup-function/Container'
 import AddGlobalEvent from './lessons/5.Ajouter-un-évènement-global/Container'
 import CallApi from './lessons/6.Appeler-une-API/Container'
 import UseObserver from './lessons/7.Utiliser-un-observateur/Container'
+import UseInterval from './lessons/8.Utiliser-setInterval/Container'
 
 function App() {
 
@@ -30,6 +31,9 @@ function App() {
       <hr />
       <br />
       <UseObserver/>
+      <hr />
+      <br />
+      <UseInterval/>
     </div>
   )
 }
