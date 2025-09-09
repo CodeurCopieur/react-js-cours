@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect} from 'react'
+import DynamicRefSelection from './DynamicRefSelection'
 
 
 export default function Container() {
@@ -21,6 +22,9 @@ export default function Container() {
       <input ref={addInputRef} type="text" />
       <input ref={addInputRef} type="text" />
       <input ref={addInputRef} type="text" />
+
+      <h1>Sélectionner une liste dynamique</h1>
+      <DynamicRefSelection />
     </>
   )
 }
