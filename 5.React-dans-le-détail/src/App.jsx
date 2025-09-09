@@ -9,11 +9,16 @@ import UseObserver from './lessons/7.Utiliser-un-observateur/Container'
 import UseInterval from './lessons/8.Utiliser-setInterval/Container'      
 import SelectArray from './lessons/9.Sélectionner-un-tableau-déléments/Container'
 import PropsChildren from './lessons/10.Comprendre-props-children/Container'
-
+import MemoUseCallback from './lessons/11.Memo-et-useCallback/Container'
 function App() {
 
   return (
     <div className="main-content">
+      <hr />
+      <br />  
+      <MemoUseCallback/>
+      <hr />
+      <br />
       <PropsChildren/>
       <hr />
       <br />
