@@ -8,36 +8,40 @@ import CallApi from './lessons/6.Appeler-une-API/Container'
 import UseObserver from './lessons/7.Utiliser-un-observateur/Container'
 import UseInterval from './lessons/8.Utiliser-setInterval/Container'      
 import SelectArray from './lessons/9.Sélectionner-un-tableau-déléments/Container'
+import PropsChildren from './lessons/10.Comprendre-props-children/Container'
 
 function App() {
 
   return (
     <div className="main-content">
-      <Fragments/>
+      <PropsChildren/>
       <hr />
       <br />
-      <Hooks/>
-      <hr />
-      <br />
-      <UseEffect/>
-      <hr />
-      <br />
-      <CleanupFunction/>
-      <hr />
-      <br />
-      <AddGlobalEvent/>
-      <hr />
-      <br />
-      <CallApi/>
-      <hr />
-      <br />
-      <UseObserver/>
+      <SelectArray/>
       <hr />
       <br />
       <UseInterval/>
       <hr />
       <br />
-      <SelectArray/>
+      <UseObserver/>
+      <hr />
+      <br />
+      <CallApi/>
+      <hr />
+      <br />
+      <AddGlobalEvent/>
+      <hr />
+      <br />
+      <CleanupFunction/>
+      <hr />
+      <br />
+      <UseEffect/>
+      <hr />
+      <br />
+      <Hooks/>
+      <hr />
+      <br />
+      <Fragments/>
     </div>
   )
 }
