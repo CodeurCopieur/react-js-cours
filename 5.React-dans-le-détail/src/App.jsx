@@ -12,11 +12,16 @@ import PropsChildren from './lessons/10.Comprendre-props-children/Container'
 import MemoUseCallback from './lessons/11.Memo-et-useCallback/Container'
 import UseMemo from './lessons/12.useMemo/Container'
 import UseReducer from './lessons/13.useReducer/Container'
-
+import HookPersonnalisé from './lessons/14.Hook-personnalisé/Container'
 function App() {
 
   return (
     <div className="main-content">
+      <HookPersonnalisé/>
+      <hr />
+      <br />
+      <hr />
+      <br />  
       <UseReducer/>
       <hr />
       <br />
@@ -30,33 +35,53 @@ function App() {
       <MemoUseCallback/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <PropsChildren/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <SelectArray/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <UseInterval/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <UseObserver/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <CallApi/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <AddGlobalEvent/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <CleanupFunction/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <UseEffect/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <Hooks/>
       <hr />
       <br />
+      <hr />
+      <br />  
       <Fragments/>
     </div>
   )
