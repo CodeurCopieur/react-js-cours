@@ -11,11 +11,17 @@ import SelectArray from './lessons/9.Sélectionner-un-tableau-déléments/Contai
 import PropsChildren from './lessons/10.Comprendre-props-children/Container'
 import MemoUseCallback from './lessons/11.Memo-et-useCallback/Container'
 import UseMemo from './lessons/12.useMemo/Container'
+import UseReducer from './lessons/13.useReducer/Container'
 
 function App() {
 
   return (
     <div className="main-content">
+      <UseReducer/>
+      <hr />
+      <br />
+      <hr />
+      <br />  
       <UseMemo/>
       <hr />
       <br />
