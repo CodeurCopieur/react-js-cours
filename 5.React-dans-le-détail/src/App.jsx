@@ -13,11 +13,17 @@ import MemoUseCallback from './lessons/11.Memo-et-useCallback/Container'
 import UseMemo from './lessons/12.useMemo/Container'
 import UseReducer from './lessons/13.useReducer/Container'
 import HookPersonnalisé from './lessons/14.Hook-personnalisé/Container'
+import CSSModules from './lessons/15.CSS-Modules/Container'
 
 function App() {
 
   return (
     <div className="main-content">
+      <CSSModules/>
+      <hr />
+      <br />
+      <hr />
+      <br />  
       <HookPersonnalisé/>
       <hr />
       <br />
