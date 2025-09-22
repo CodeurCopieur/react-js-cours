@@ -14,11 +14,16 @@ import UseMemo from './lessons/12.useMemo/Container'
 import UseReducer from './lessons/13.useReducer/Container'
 import HookPersonnalisé from './lessons/14.Hook-personnalisé/Container'
 import CSSModules from './lessons/15.CSS-Modules/Container'
-
+import TailwindCSS from './lessons/16.Utiliser-TailwindCSS/Container'
 function App() {
 
   return (
     <div className="main-content">
+      <TailwindCSS/>
+      <hr />
+      <br />
+      <hr />
+      <br />  
       <CSSModules/>
       <hr />
       <br />
