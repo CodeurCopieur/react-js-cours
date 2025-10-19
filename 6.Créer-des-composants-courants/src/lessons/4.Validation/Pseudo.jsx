@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Pseudo() {
+export default function Pseudo({inputsStates, setInputsStates, showValidation}) {
   return (
     <>
         <label 
@@ -9,7 +9,9 @@ export default function Pseudo() {
             >Votre pseudo (3-64 caractères)</label>
         <input id="userName"
             type="text"
-            className='mt-1 block p-4 w-full rounded-md border-gray-700  text-white placeholder-slate-500 focus:border-blue-500 focus:ring-blue-500'
+            className='mt-1 block p-4 w-full rounded-md border-gray-700 placeholder-slate-500 focus:border-blue-500 focus:ring-blue-500'
+            value={inputsStates.pseudo}
+            onChange={(e) => setInputsStates({...inputsStates, pseudo: e.target.value})}
             placeholder='Entrez votre pseudo' />
     </>
   )
