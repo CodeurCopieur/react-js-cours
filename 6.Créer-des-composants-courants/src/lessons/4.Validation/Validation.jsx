@@ -24,6 +24,43 @@ export default function Validation() {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(inputsStates)
+
+        if(validationCheck()) {
+            console.log("Validation successful")
+        }
+    }
+
+    function validationCheck() {
+        const areValid = {
+            pseudo: false,
+            password: false,
+            confirmPassword: false,
+        }
+
+        if(inputsStates.pseudo.length < 3 || inputsStates.pseudo.length > 64) {
+            setShowValidation(state => ({...state, pseudo: true}))
+        } else {
+            areValid.pseudo = true;
+            setShowValidation(state => ({...state, pseudo: false}))
+        }
+
+        if(inputsStates.password.length < 6 || !/\d/.test(inputsStates.password)) {
+            setShowValidation(state => ({...state, password: true}))
+        } else {
+            areValid.password = true;
+            setShowValidation(state => ({...state, password: false}))
+        }
+
+        if(inputsStates.confirmPassword !== inputsStates.password) {
+            setShowValidation(state => ({...state, confirmPassword: true}))
+        } else {
+            areValid.confirmPassword = true;
+            setShowValidation(state => ({...state, confirmPassword: false}))
+        }
+
+        console.log(areValid)
+        
+        
     }
 
   return (
