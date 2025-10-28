@@ -13,6 +13,10 @@ export default function Confirmation({inputsStates, setInputsStates, showValidat
             value={inputsStates.confirmPassword}
             onChange={(e) => setInputsStates({...inputsStates, confirmPassword: e.target.value})}
             placeholder='Entrez votre mot de passe' />
+        {showValidation.confirmPassword && (
+          <p className='text-red-500'>
+            Les mots de passe ne sont pas identiques
+            </p>)}
     </>
   )
 }

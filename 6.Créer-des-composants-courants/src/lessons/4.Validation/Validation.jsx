@@ -59,6 +59,14 @@ export default function Validation() {
         }
 
         console.log(areValid)
+
+        if(Object.values(areValid).every(isValid => isValid)) {
+            return true
+        } else {
+            return false
+        }
+
+        
         
         
     }

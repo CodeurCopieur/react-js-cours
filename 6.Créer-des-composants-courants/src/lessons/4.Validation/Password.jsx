@@ -13,6 +13,10 @@ export default function Password({inputsStates, setInputsStates, showValidation}
             value={inputsStates.password}
             onChange={(e) => setInputsStates({...inputsStates, password: e.target.value})}
             placeholder='Entrez votre mot de passe' />
+        {showValidation.password && (
+          <p className='text-red-500'>
+            Veuillez entrer un mot de passe valide (6 caractères minimum et un chiffre minimum)
+            </p>)}
     </>
   )
 }

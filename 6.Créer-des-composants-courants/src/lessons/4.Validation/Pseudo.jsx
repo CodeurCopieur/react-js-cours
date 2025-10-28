@@ -13,6 +13,10 @@ export default function Pseudo({inputsStates, setInputsStates, showValidation}) 
             value={inputsStates.pseudo}
             onChange={(e) => setInputsStates({...inputsStates, pseudo: e.target.value})}
             placeholder='Entrez votre pseudo' />
+        {showValidation.pseudo && (
+          <p className='text-red-500'>
+            Veuillez entrer un pseudo valide (3-64 caractères)
+            </p>)}
     </>
   )
 }
